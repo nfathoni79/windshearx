@@ -190,12 +190,12 @@ function updateGaugeX(sensors) {
 
         if (sensor.sensor == '2') {
             gauge2.data([sensor.arah, sensor.kecepatan]);
-            updateGaugeDesc(gauge1, '[Sensor 2]', ' m/s');
+            updateGaugeDesc(gauge2, '[Sensor 2]', ' m/s');
         }
 
         if (sensor.sensor == '3') {
             gauge3.data([sensor.arah, sensor.kecepatan]);
-            updateGaugeDesc(gauge1, '[Sensor 3]', ' m/s');
+            updateGaugeDesc(gauge3, '[Sensor 3]', ' m/s');
         }
     }
 }
